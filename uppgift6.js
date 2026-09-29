@@ -1,3 +1,4 @@
+'use strict'
 function calculateArea(width, heigth) {
   return width * heigth
 }
