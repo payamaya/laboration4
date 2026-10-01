@@ -1,8 +1,4 @@
 /* Lösning till uppgift 8. AV Paul Yashouh, 2026 */
-<<<<<<< HEAD
-=======
-
->>>>>>> 8d8a73f (Add solution comments to all JavaScript files for clarity)
 'use strict'
 /*skapa ett objekt som representerar en bok ( titel,författare, utgivningsår)*/
 const book = {
