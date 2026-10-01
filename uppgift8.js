@@ -1,15 +1,17 @@
+/* Lösning till uppgift 8. AV Paul Yashouh, 2026 */
 'use strict'
-
+/*skapa ett objekt som representerar en bok ( titel,författare, utgivningsår)*/
 const book = {
-  title: 'The Hobbit',
-  author: 'J.R.R. Tolkien',
-  yearOfPublication: 1937,
+  titel: 'The Hobbit',
+  författare: 'J.R.R. Tolkien',
+  utgivningsår: 1937,
 }
-
+// Skapa en funktionsom tar emot objekt bok
 function bookObj(myBook) {
-  console.log(`Titel: ${myBook.title}`)
-  console.log(`Författare: ${myBook.author}`)
-  console.log(`Utgivningsår: ${myBook.yearOfPublication}`)
+  // skriv ut informationen om booken
+  console.log(`Titel: ${myBook.titel}`)
+  console.log(`Författare: ${myBook.författare}`)
+  console.log(`Utgivningsår: ${myBook.utgivningsår}`)
 }
-// call the function
+// Anropar funktion bookObj med objektet som parameter
 bookObj(book)
