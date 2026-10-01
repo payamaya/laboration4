@@ -1,4 +1,8 @@
 /* Lösning till uppgift 4. AV Paul Yashouh, 2026 */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d8a73f (Add solution comments to all JavaScript files for clarity)
 'use strict'
 // Skapa en variabel med värdet 20 för maxgränsen
 const maxNumber = 20
