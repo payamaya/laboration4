@@ -1,3 +1,6 @@
+/* Lösning till uppgift 5. AV Paul Yashouh, 2026 */
+'use strict'
+// Skapa array som innehåller maträtter
 const dishes = [
   'Spaghetti Bolognese',
   'Chicken Tikka Masala',
@@ -5,16 +8,15 @@ const dishes = [
   'Tacos al Pastor',
   'Mushroom Risotto',
 ]
-// print the entire array
+// Skriv ut ehela arrayen i konsolen
 console.log('Entire array:', dishes)
-// print the first element
+// Skriv ut första elementet i arrayen
 console.log(`First element`, dishes[0])
-// Prints last element
+// // Skriv ut sista elementet i arrayen
 console.log(`Last element:`, dishes[dishes.length - 1])
-// Add a new dish to the last of the array
+// Lägg till ett ny maträtt i slutet av arrayen
 dishes.push('Moussaka')
-//  Remove the first dish
+// Ta bort först elementet frän arrayen
 dishes.shift()
-
-// Print again
+// Skriv ut arrayen igen efter modifikationen av arrayen
 console.log('Array after changes:', dishes)
