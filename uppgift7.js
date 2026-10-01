@@ -1,3 +1,5 @@
+/* Lösning till uppgift 7. AV Paul Yashouh, 2026 */
+
 'use strict'
 
 const arrayToSum = [21, 43, 56, 77, 11, 92]

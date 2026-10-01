@@ -1,3 +1,5 @@
+/* Lösning till uppgift 3. AV Paul Yashouh, 2026 */
+
 'use strict'
 
 let age = 64

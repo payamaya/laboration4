@@ -1,3 +1,5 @@
+/* Lösning till uppgift 6. AV Paul Yashouh, 2026 */
+
 'use strict'
 function calculateArea(width, heigth) {
   return width * heigth

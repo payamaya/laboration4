@@ -1,3 +1,5 @@
+/* Lösning till uppgift 5. AV Paul Yashouh, 2026 */
+
 'use strict'
 const dishes = [
   'Spaghetti Bolognese',

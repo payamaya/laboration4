@@ -1,3 +1,5 @@
+/* Lösning till uppgift 4. AV Paul Yashouh, 2026 */
+
 'use strict'
 const maxNumber = 20
 
