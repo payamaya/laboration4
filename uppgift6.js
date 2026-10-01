@@ -1,5 +1,4 @@
 /* Lösning till uppgift 6. AV Paul Yashouh, 2026 */
-
 'use strict'
 // Skapa funktion som beräknar arean av en rektangel
 function calculateArea(width, height) {
