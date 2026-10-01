@@ -3,18 +3,18 @@
 'use strict'
 //Skapa en array med minst sex tal
 const arrayToSum = [21, 43, 56, 77, 11, 92]
-// Skapa en funktion som tar emot arrayen som parameter
+// Funktion som tar emot arrayen som parameter och beräkna totala summan
 function calculateArraySum(arr) {
-  // Startvärde 0
+  // Initiera variable med start vårde 0 för att lagra summan
   let totalToSum = 0
 
-  // loopa genom arrayens innehåll
+  // loopa igenom varje element i arrayen
   for (let i = 0; i < arr.length; i++) {
-    // spara summan i variable totalToSum
+    // Addera talet i arrayen till den totala summan (tottalToSum)
     totalToSum += arr[i]
   }
-  // returnera summan
+  // Returnera slutliga resultatet från funktionen
   return totalToSum
 }
-// Anropa funktionen med arrayen och skriv ut resultatet
+// Anropa funktionen med arrayen och skriv ut resultatet i terminalen
 console.log('Summan är ', calculateArraySum(arrayToSum))
