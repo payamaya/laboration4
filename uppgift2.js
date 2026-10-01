@@ -1,3 +1,5 @@
+/* Lösning till uppgift 2. AV Paul Yashouh, 2026 */
+
 'use strict'
 // Price and numOfproduct can change
 let price = 100
